@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>"Flight Simulator" Survey</title>
+    
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Favorite Flight Simulator</h1>
+      <p id="description">Give us your thoughts on your favorite Flight Simulator</p>
+
+      <section>
+        <form id="survey-form"class="" action="index.html" method="post">
+          <div id="name-div">
+            <label id="name-label" class="label-color" for="name-inp">*Name :
+              <input id="name"type="text" name="name-inp" placeholder="Enter your name..." required />
+            </label>
+          </div>
+            <div id="email-div">
+              <label id="email-label" class="label-color" for="email-inp">*Email :
+                <input id="email"type="email" name="email-inp" placeholder="Enter your Email..." required />
+              </label>
+            </div>
+            <div id="age-div">
+              <label id="number-label"class="label-color" for="name-inp">*Age :
+                <input id="number"type="number" name="age-inp" placeholder="Enter your age..." min="1" max="100" required />
+              </label>
+            </div>
+            <div id="fav-fs">
+              <label class="label-color"  for="fs-select">Choose Flight Sim :
+                <select id="dropdown" name="fs-select">
+                  <option value="xplane">X-plane</option>
+                  <option value="fsx">Microsoft Flight Simulator</option>
+                  <option value=p3d">Prepar3d</option>
+                  <option value="flightgear">Flightgear</option>
+                </select>
+              </label>
+            </div>
+            <div id="os-div">
+              <label class="label-color" for="os"> Choose OS :
+                <input type="checkbox" name="os" value="win"> Microsoft Windows
+                <input type="checkbox" name="os" value="osx"> OSX
+                <input type="checkbox" name="os" value="lin"> Linux
+              </label>
+            </div>
+            <div id="os-arc">
+              <label class="label-color" for="bit"> System type :
+                <input type="radio" name="bit" value="32"> 32 bit
+                <input type="radio" name="bit" value="64"> 64 bit
+              </label>
+            </div>
+            <div id="text-area">
+              <textarea name="additional" rows="4" cols="30">Why did you choose this software?</textarea>
+            </div>
+          <input id="submit" type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

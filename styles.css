@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000000;
+  color: red;
+}
+
+ h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+
+  #description {
+    text-align: center;
+    line-height: 50px;
+  }
+
+.label-color {
+  color: white;
+}
+
+#text-area {
+  resize: none;
+}
+
+#name-div {
+  display: inline-block;
+  text-align: right;
+  width: 55%;
+  right: 5px;
+  margin: 6px;
+  padding: 2px;
+
+}
+
+#email-div {
+  display: inline-block;
+  text-align: right;
+  width: 55%;
+  margin: 6px;
+  padding: 2px;
+}
+
+#age-div {
+  display: inline-block;
+  text-align: right;
+  width: 55%;
+  margin: 6px;
+  padding: 2px;
+}
+#fav-fs {
+  display: inline-block;
+  text-align: right;
+  width: 55%;
+  margin: 6px;
+  padding: 2px;
+}
+
+#os-div {
+  display: inline-block;
+  text-align: right;
+  width: 60%;
+  margin: 6px;
+  padding: 2px;
+}
+
+#os-arc {
+  display: inline-block;
+  text-align: right;
+  width: 55%;
+  margin: 6px;
+  padding: 2px;
+}
+#text-area {
+  display: block;
+  line-height: 20px;
+  width: 25%;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+textarea {
+  width: 100%;
+  min-width: 300px;
+  max-width: 400px;
+  margin: 0;
+
+  resize: none;
+}
+
+#submit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 700px) {
+  #name-div {
+    width: 58%;
+  }
+
+  #email-div {
+    width: 58%;
+  }
+
+  #age-div {
+    width: 58%;
+  }
+
+  #os-div {
+    width: 65%;
+}
+
+#fav-fs {
+  width: 58%;
+}
+
+textarea{
+width: 100%;
+}
